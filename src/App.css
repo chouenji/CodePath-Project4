@@ -1,0 +1,46 @@
+/* Project 4 */
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+}
+
+.mars-photo {
+  height: 30%;
+  margin: 40px;
+}
+
+.mars-photo img {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.ban,
+.seen {
+  margin: 0;
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100vh;
+}
+
+.banned {
+  margin: 20px auto;
+}
+
+.seen img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
